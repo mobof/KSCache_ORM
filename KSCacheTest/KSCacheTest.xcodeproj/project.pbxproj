@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3198B07724DBF1F400B08218 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198B07624DBF1F400B08218 /* AppDelegate.m */; };
+		3198B07A24DBF1F400B08218 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198B07924DBF1F400B08218 /* SceneDelegate.m */; };
+		3198B07D24DBF1F400B08218 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198B07C24DBF1F400B08218 /* ViewController.m */; };
+		3198B08024DBF1F400B08218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3198B07E24DBF1F400B08218 /* Main.storyboard */; };
+		3198B08224DBF1F800B08218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3198B08124DBF1F800B08218 /* Assets.xcassets */; };
+		3198B08524DBF1F800B08218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3198B08324DBF1F800B08218 /* LaunchScreen.storyboard */; };
+		3198B08824DBF1F800B08218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198B08724DBF1F800B08218 /* main.m */; };
+		3198B09624DBFA3C00B08218 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198B09224DBFA3C00B08218 /* School.m */; };
+		3198B09724DBFA3C00B08218 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198B09324DBFA3C00B08218 /* Student.m */; };
+		3198B09824DBFA3C00B08218 /* Grade.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198B09524DBFA3C00B08218 /* Grade.m */; };
+		5945EDE0CD01C07BA1539B9A /* Pods_KSCacheTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82547DF576CF13685272C69 /* Pods_KSCacheTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E6827027DDC6FFD71FD5A3E /* Pods-KSCacheTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCacheTest.debug.xcconfig"; path = "Target Support Files/Pods-KSCacheTest/Pods-KSCacheTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3198B07224DBF1F400B08218 /* KSCacheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCacheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3198B07524DBF1F400B08218 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3198B07624DBF1F400B08218 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3198B07824DBF1F400B08218 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3198B07924DBF1F400B08218 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3198B07B24DBF1F400B08218 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3198B07C24DBF1F400B08218 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3198B07F24DBF1F400B08218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3198B08124DBF1F800B08218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3198B08424DBF1F800B08218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3198B08624DBF1F800B08218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3198B08724DBF1F800B08218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3198B09024DBFA3B00B08218 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		3198B09124DBFA3C00B08218 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		3198B09224DBFA3C00B08218 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		3198B09324DBFA3C00B08218 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		3198B09424DBFA3C00B08218 /* Grade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grade.h; sourceTree = "<group>"; };
+		3198B09524DBFA3C00B08218 /* Grade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grade.m; sourceTree = "<group>"; };
+		6BE637E95B53731E4E1F18B3 /* Pods-KSCacheTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCacheTest.release.xcconfig"; path = "Target Support Files/Pods-KSCacheTest/Pods-KSCacheTest.release.xcconfig"; sourceTree = "<group>"; };
+		C82547DF576CF13685272C69 /* Pods_KSCacheTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSCacheTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3198B06F24DBF1F400B08218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5945EDE0CD01C07BA1539B9A /* Pods_KSCacheTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3198B06924DBF1F400B08218 = {
+			isa = PBXGroup;
+			children = (
+				3198B07424DBF1F400B08218 /* KSCacheTest */,
+				3198B07324DBF1F400B08218 /* Products */,
+				8327CDEC1EB9FFE3E41FFE0A /* Pods */,
+				98B91EB2DD6415E75F26647A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3198B07324DBF1F400B08218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3198B07224DBF1F400B08218 /* KSCacheTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3198B07424DBF1F400B08218 /* KSCacheTest */ = {
+			isa = PBXGroup;
+			children = (
+				3198B09424DBFA3C00B08218 /* Grade.h */,
+				3198B09524DBFA3C00B08218 /* Grade.m */,
+				3198B09124DBFA3C00B08218 /* School.h */,
+				3198B09224DBFA3C00B08218 /* School.m */,
+				3198B09024DBFA3B00B08218 /* Student.h */,
+				3198B09324DBFA3C00B08218 /* Student.m */,
+				3198B07524DBF1F400B08218 /* AppDelegate.h */,
+				3198B07624DBF1F400B08218 /* AppDelegate.m */,
+				3198B07824DBF1F400B08218 /* SceneDelegate.h */,
+				3198B07924DBF1F400B08218 /* SceneDelegate.m */,
+				3198B07B24DBF1F400B08218 /* ViewController.h */,
+				3198B07C24DBF1F400B08218 /* ViewController.m */,
+				3198B07E24DBF1F400B08218 /* Main.storyboard */,
+				3198B08124DBF1F800B08218 /* Assets.xcassets */,
+				3198B08324DBF1F800B08218 /* LaunchScreen.storyboard */,
+				3198B08624DBF1F800B08218 /* Info.plist */,
+				3198B08724DBF1F800B08218 /* main.m */,
+			);
+			path = KSCacheTest;
+			sourceTree = "<group>";
+		};
+		8327CDEC1EB9FFE3E41FFE0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E6827027DDC6FFD71FD5A3E /* Pods-KSCacheTest.debug.xcconfig */,
+				6BE637E95B53731E4E1F18B3 /* Pods-KSCacheTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98B91EB2DD6415E75F26647A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C82547DF576CF13685272C69 /* Pods_KSCacheTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3198B07124DBF1F400B08218 /* KSCacheTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3198B08B24DBF1F800B08218 /* Build configuration list for PBXNativeTarget "KSCacheTest" */;
+			buildPhases = (
+				5D906638B293C0493A349D13 /* [CP] Check Pods Manifest.lock */,
+				3198B06E24DBF1F400B08218 /* Sources */,
+				3198B06F24DBF1F400B08218 /* Frameworks */,
+				3198B07024DBF1F400B08218 /* Resources */,
+				C340D2DB9863FA56A65497B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSCacheTest;
+			productName = KSCacheTest;
+			productReference = 3198B07224DBF1F400B08218 /* KSCacheTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3198B06A24DBF1F400B08218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "格尔软件";
+				TargetAttributes = {
+					3198B07124DBF1F400B08218 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 3198B06D24DBF1F400B08218 /* Build configuration list for PBXProject "KSCacheTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3198B06924DBF1F400B08218;
+			productRefGroup = 3198B07324DBF1F400B08218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3198B07124DBF1F400B08218 /* KSCacheTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3198B07024DBF1F400B08218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198B08524DBF1F800B08218 /* LaunchScreen.storyboard in Resources */,
+				3198B08224DBF1F800B08218 /* Assets.xcassets in Resources */,
+				3198B08024DBF1F400B08218 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D906638B293C0493A349D13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSCacheTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C340D2DB9863FA56A65497B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSCacheTest/Pods-KSCacheTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSCacheTest/Pods-KSCacheTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSCacheTest/Pods-KSCacheTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3198B06E24DBF1F400B08218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198B07D24DBF1F400B08218 /* ViewController.m in Sources */,
+				3198B09624DBFA3C00B08218 /* School.m in Sources */,
+				3198B07724DBF1F400B08218 /* AppDelegate.m in Sources */,
+				3198B08824DBF1F800B08218 /* main.m in Sources */,
+				3198B07A24DBF1F400B08218 /* SceneDelegate.m in Sources */,
+				3198B09824DBFA3C00B08218 /* Grade.m in Sources */,
+				3198B09724DBFA3C00B08218 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3198B07E24DBF1F400B08218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3198B07F24DBF1F400B08218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3198B08324DBF1F800B08218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3198B08424DBF1F800B08218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3198B08924DBF1F800B08218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3198B08A24DBF1F800B08218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3198B08C24DBF1F800B08218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6827027DDC6FFD71FD5A3E /* Pods-KSCacheTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FVYCZP7N5;
+				INFOPLIST_FILE = KSCacheTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koal.KSCacheTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3198B08D24DBF1F800B08218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE637E95B53731E4E1F18B3 /* Pods-KSCacheTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FVYCZP7N5;
+				INFOPLIST_FILE = KSCacheTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koal.KSCacheTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3198B06D24DBF1F400B08218 /* Build configuration list for PBXProject "KSCacheTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198B08924DBF1F800B08218 /* Debug */,
+				3198B08A24DBF1F800B08218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3198B08B24DBF1F800B08218 /* Build configuration list for PBXNativeTarget "KSCacheTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198B08C24DBF1F800B08218 /* Debug */,
+				3198B08D24DBF1F800B08218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3198B06A24DBF1F400B08218 /* Project object */;
+}
